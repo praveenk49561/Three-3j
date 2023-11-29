@@ -32,7 +32,7 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
 }
 @media (max-width: 480px) {
-    .heading {
-        font-size: 25px:
+    #heading {
+        font-size: 5px:
     }
 }
