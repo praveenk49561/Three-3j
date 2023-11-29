@@ -31,7 +31,7 @@ html, body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 480px) {
     .heading {
         font-size: 25px:
     }
