@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+}
+ 
+
+#root {
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.flex {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 100%
+}
+.heading {
+    display: grid;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
