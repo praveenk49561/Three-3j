@@ -280,7 +280,7 @@ export default () => {
 	const tl = gsap.timeline({repeat:-1, yoyo:false, repeatDelay:0 });
 	tl.to('.heading', 0.8, {text:{value:"Whats Up?", padSpace:true,  ease: Linear.easeNone},delay:2});
 	tl.to('.heading', 0.8, {text:{value:"Asleep Already", padSpace:true, ease: Linear.easeNone},delay:2});
-	tl.to('.heading', 0.8, {text:{value:"Hope Didn't Lose Stamina, This Time", ease: Linear.easeNone},delay:2});
+	tl.to('.heading', 0.8, {text:{value:"Hope U Didn't Lose Stamina, This Time", ease: Linear.easeNone},delay:2});
 	tl.to('.heading', 0.8, {text:{value:"Good Night!", padSpace:true, ease: Linear.easeNone},delay:2});
 
 	console.log(tl);
