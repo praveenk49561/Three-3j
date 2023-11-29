@@ -277,11 +277,12 @@ export default () => {
 	// tl.to(text, 0.8, {text:{value:"high-quality editorial", padSpace:true, ease:Linear.easeNone},delay:2});
 	// tl.to(text, 0.8, {text:{value:"quality, bespoke content", padSpace:true, ease:Linear.easeNone},delay:2});
 	// tl.to(text, 0.8, {text:{value:"quality, bespoke content", padSpace:true, ease:Linear.easeNone},delay:2});
-	const tl = gsap.timeline({repeat:-1, yoyo:false, repeatDelay:0 });
-	tl.to('.heading', 0.8, {text:{value:"Whats Up?", padSpace:true,  ease: Linear.easeNone},delay:2});
-	tl.to('.heading', 0.8, {text:{value:"Asleep Already", padSpace:true, ease: Linear.easeNone},delay:2});
-	tl.to('.heading', 0.8, {text:{value:"Hope U Didn't Lose Stamina, This Time", ease: Linear.easeNone},delay:2});
-	tl.to('.heading', 0.8, {text:{value:"Good Night!", padSpace:true, ease: Linear.easeNone},delay:2});
+	const tl = gsap.timeline({repeat:-1, yoyo:false, repeatDelay:4 });
+	tl.to('.heading', {text:{value:"Hello Little Kuma!",  ease: Linear.easeNone},delay:2});
+	tl.to('.heading', {text:{value:"Whats Up?",  ease: Linear.easeNone},delay:2});
+	tl.to('.heading', {text:{value:"Asleep Already", ease: Linear.easeNone},delay:2});
+	tl.to('.heading', {text:{value:"Hope U Didn't Lose Stamina, This Time", ease: Linear.easeNone},delay:2});
+	tl.to('.heading', {text:{value:"Good Night!", ease: Linear.easeNone},delay:2});
 
 	console.log(tl);
 };
